@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+content="width=device-width,initial-scale=1">
     <title>Дурак Онлайн</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <style>
         body { font-family: Arial, sans-serif; text-align: center; }
         button { padding: 10px 20px; font-size: 18px; margin-top: 20px; }
+        h1 { font-size: 24px; color: #333; }
     </style>
 </head>
 <body>
@@ -15,11 +18,7 @@
     <script>
         let tg = window.Telegram.WebApp;
         tg.expand();
-
-        function startGame() {
-            alert("Игра началась! Раздача карт...");
-            // Здесь можно добавить код логики игры
-        }
+        function startGame() { alert("Игра началась! Раздача карт..."); }
     </script>
 </body>
 </html>
